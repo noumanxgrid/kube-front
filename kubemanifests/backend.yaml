@@ -16,7 +16,7 @@ spec:
         kubernetes.io/hostname: minikube-m03
       containers:
         - name: backend-container
-          image: n0man2ahmed/backend:latest
+          image: hamzaarshad10/backend:latest
           ports:
             - containerPort: 8080
           env:
