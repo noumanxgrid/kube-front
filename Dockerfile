@@ -5,10 +5,12 @@ FROM node:14.18.2-slim
 WORKDIR /app
 
 # Copying the required files
-COPY . .
+COPY package.json .
 
 # installing npm packages
 RUN npm install 
+
+COPY . . 
 
 # Exposing port 3000
 EXPOSE 3000
