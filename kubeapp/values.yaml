@@ -8,7 +8,7 @@ db:
  deployname: postgres-deployment
  labels:
   app: postgres
- replicas: 1
+ replicas: 2
  affinity_key: kubernetes.io/hostname
  affinity_value: minikube-m04
  image: postgres:latest
